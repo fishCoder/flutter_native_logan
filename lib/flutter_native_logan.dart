@@ -3,6 +3,7 @@
 import 'dart:async';
 import 'dart:core';
 import 'dart:io';
+import 'package:flutter_native_logan/config.dart';
 import 'package:flutter_native_logan/logan.dart';
 import 'package:flutter_native_logan/result.dart';
 
@@ -13,8 +14,11 @@ class FlutterNativeLogan {
   static LogIsolateMonitor logan = LogIsolateMonitor();
 
   static Future<LoganResult> init(
-      String aseKey, String aesIv, int maxFileLen) async {
-    return await logan.init(aseKey, aesIv, maxFileLen);
+      String aseKey, String aesIv, int maxFileLen, {LogConfig config}) async {
+    config ??= LogConfig();
+    LoganResult result = await logan.init(aseKey, aesIv, maxFileLen, config);
+    logan.initResult(result.success);
+    return result;
 
   }
 
@@ -27,8 +31,9 @@ class FlutterNativeLogan {
   }
 
   static Future<LoganResult> upload(String serverUrl, String date, String appId, String unionId, String deviceId) async {
-    
-    return await logan.upload(serverUrl, date, appId, unionId, deviceId);
+    LoganResult result = await logan.upload(serverUrl, date, appId, unionId, deviceId);
+    log(1, result.message);
+    return result;
   }
 
   static Future<LoganResult> flush() async {
