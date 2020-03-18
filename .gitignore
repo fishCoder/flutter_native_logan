@@ -5,3 +5,7 @@
 .pub/
 
 build/
+
+.idea
+flutter_native_logan.iml
+.metadata

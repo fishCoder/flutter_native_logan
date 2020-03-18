@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:ffi/ffi.dart';
+import 'package:flutter_native_logan/config.dart';
 import 'package:flutter_native_logan/result.dart';
 import 'package:intl/intl.dart';
 import 'bindings/bindings.dart' show bindings;
@@ -11,15 +12,21 @@ import 'bindings/constants.dart';
 class Logan {
   Directory _loganFileDir;
   int currentDay = 0;
-  int expiredTime = 0;
   int lastTime = 0;
-  bool debug = true;
+  
+  LogConfig config;
 
   static const int LONG = 24  * 60 * 60 * 1000;
   static const DATE_FORMAT = 'yyyy-MM-dd';
   static const MINUTE = 1000 * 60;
 
-  Future<LoganResult> init(String dir, String aseKey, String aesIv, int maxFileLen) async {
+  bool hasInit = false;
+
+  Future<LoganResult> init(String dir, String aseKey, String aesIv, int maxFileLen, LogConfig config) async {
+    if (hasInit) {
+      return LoganResult(true, 0, 'Logan已经初始化了');
+    }
+    this.config = config;
     Directory directory = Directory(dir);
     final cachePath = Utf8.toUtf8(directory.path);
     final String loganFilePath = '${directory.path}/logan_v1';
@@ -37,8 +44,10 @@ class Logan {
     free(cKey);
     free(cIv);
 
+    hasInit = nativeCode == CLOGAN_INIT_SUCCESS_MMAP || nativeCode == CLOGAN_INIT_SUCCESS_MEMORY;
+
     return LoganResult.fromNative(
-      nativeCode == CLOGAN_INIT_SUCCESS_MMAP || nativeCode == CLOGAN_INIT_SUCCESS_MEMORY,
+      hasInit,
       nativeCode
     );
   }
@@ -55,7 +64,7 @@ class Logan {
 
       int todayStartTime = dateTimeToStartTime(DateTime.now().millisecondsSinceEpoch);
       currentDay = todayStartTime;
-      int deleteTime = todayStartTime - expiredTime;
+      int deleteTime = todayStartTime - config.expiredTime;
       deleteExpiredFile(deleteTime);
 
       ///创建新日志文件
@@ -81,7 +90,7 @@ class Logan {
     var cFileName = Utf8.toUtf8(fileName);
     int nativeCode = bindings.open(cFileName);
     free(cFileName);
-    if (debug) {
+    if (config.debug) {
       print('${DateTime.now().toUtc()} ${NativeCodeMessage[nativeCode]}');
     }
     return nativeCode == CLOGAN_OPEN_SUCCESS;
@@ -103,7 +112,7 @@ class Logan {
         isMain
     );
 
-    if(debug){
+    if(config.debug){
       print('${DateTime.now().toUtc()} ${NativeCodeMessage[nativeCode]} -> $log');
     }
 
@@ -116,6 +125,11 @@ class Logan {
   /// 删除过期文件
   Future<void> deleteExpiredFile(int deleteTime) {
     var completer = new Completer<void>();
+    if (_loganFileDir == null) {
+      completer.complete();
+      return completer.future;
+    }
+
     _loganFileDir.list().listen(
       (file){
         String path = file.path;
@@ -143,7 +157,7 @@ class Logan {
     var completer = new Completer<LoganResult>();
     _loganFileDir.list().listen(
         (file) {
-          if(debug) {
+          if(config.debug) {
             print('删除日志: $file');
           }
           file.deleteSync();

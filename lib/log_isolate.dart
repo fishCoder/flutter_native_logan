@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:isolate';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter_native_logan/config.dart';
 import 'package:package_info/package_info.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter_native_logan/logan.dart';
@@ -12,23 +12,41 @@ class LogIsolateMonitor {
 
   Isolate logIsolate;
   ReceivePort receivePort = ReceivePort();
+  ReceivePort errorPort = ReceivePort();
+  ReceivePort exitPort = ReceivePort();
 
   SendPort sendPort;
   int msgId = 0;
   Map<int, Completer<LoganResult>> responses = {};
+  LogConfig config;
+  List<LogRequest> cacheRequestList = [];
 
-  Future<LoganResult> init(String aseKey, String aesIv, int maxFileLen) async {
-    logIsolate = await Isolate.spawn(startLogIsolate, receivePort.sendPort);
+  bool isStart = false;
+
+  void initResult(bool success){
+    if (success) {
+      isStart = true;
+    } else {
+      cacheRequestList.clear();
+    }
+  }
+
+  Future<LoganResult> init(String aseKey, String aesIv, int maxFileLen, LogConfig config) async {
+    if (isStart) return LoganResult(true, 0, '已经初始化了');
+    this.config = config;
+    logIsolate = await Isolate.spawn(startLogIsolate, receivePort.sendPort, onError: errorPort.sendPort, onExit: exitPort.sendPort);
     await initIsolate();
     Directory directory = await getApplicationDocumentsDirectory();
-    LogRequest request = LogRequest(ActionType.INIT, [directory.path, aseKey, aesIv, maxFileLen]);
-    return sendRequest(request);
+    LogRequest request = LogRequest(ActionType.INIT, [directory.path, aseKey, aesIv, maxFileLen, this.config, cacheRequestList]);
+    cacheRequestList.clear();
+    return sendRequest(request, init: true);
   }
 
   Future<LoganResult> initIsolate(){
     Completer<LoganResult> completer = Completer();
     responses[-1] = completer;
     receivePort.listen(onResponse);
+    errorPort.listen(onError);
     return completer.future;
   }
 
@@ -76,13 +94,31 @@ class LogIsolateMonitor {
   }
 
 
-  Future<LoganResult> sendRequest(LogRequest request){
+  Future<LoganResult> sendRequest(LogRequest request, {bool init = false}){
     Completer<LoganResult> completer = Completer();
     request.msgId = msgId;
     responses[msgId] = completer;
     msgId ++;
-    sendPort.send(request);
+    if (!isStart && !init) {
+      if (cacheRequestList.length > config.cacheRequestLength) {
+        completer.complete(LoganResult(false, 0, '还未初始化并且缓存已满'));
+        return completer.future;
+      } else {
+        cacheRequestList.add(request);
+      }
+    } else {
+      sendPort.send(request);
+    }
     return completer.future;
+  }
+
+
+
+  void onError(dynamic message){
+    if (message is List) {
+      List listError =  message;
+      listError.forEach((item)=>print(item));
+    }
   }
 
   void onResponse(dynamic message){
@@ -117,7 +153,8 @@ class LogIsolate {
       List args = request.data;
       switch(request.type) {
         case ActionType.INIT:
-          result = await logan.init(args[0], args[1], args[2], args[3]);
+          result = await logan.init(args[0], args[1], args[2], args[3], args[4]);
+          writeCacheLog(args[5]);
           break;
         case ActionType.WRITE:
           result = logan.log(args[0], args[1]);
@@ -139,6 +176,12 @@ class LogIsolate {
     }
   }
 
+
+  void writeCacheLog(List requestList){
+    if (requestList != null && requestList.isNotEmpty) {
+      requestList.forEach(onMainMsgReceive);
+    }
+  }
 
   void send(dynamic message) {
     sendPort.send(message);
