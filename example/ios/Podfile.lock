@@ -1,0 +1,49 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_native_logan (0.0.1):
+    - Flutter
+    - Logan (= 1.2.6)
+  - Logan (1.2.6):
+    - Logan/mbedtls (= 1.2.6)
+  - Logan/mbedtls (1.2.6)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - path_provider_macos (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_native_logan (from `.symlinks/plugins/flutter_native_logan/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Logan
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_native_logan:
+    :path: ".symlinks/plugins/flutter_native_logan/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  path_provider_macos:
+    :path: ".symlinks/plugins/path_provider_macos/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_native_logan: 3fb46703bb2f9f8c503ff97722cdd7e39c53cd7a
+  Logan: c9205313f10ccdc544bf2b4abf716ca6a2e6dc1d
+  package_info: 48b108e75b8802c2d5e126f208ef540561c98aef
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
+  path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
+
+PODFILE CHECKSUM: 025eae5b1fea6aaf1cbb1438df7b69c30f4c8f0b
+
+COCOAPODS: 1.8.4

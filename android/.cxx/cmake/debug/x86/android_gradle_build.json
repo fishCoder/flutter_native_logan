@@ -1,0 +1,558 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/CMakeLists.txt",
+		"/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/fulongbin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"clogan-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "clogan",
+			"buildCommand" : "/Users/fulongbin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86 --target clogan",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/clogan_core.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/mmap_util.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/cJSON.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/construct_data.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/zlib_util.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/json_util.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/aes_util.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/directory_util.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/base_util.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/console_util.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86/libclogan.a",
+			"toolchain" : "7706711918070078005"
+		},
+		"mbedcrypto-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "mbedcrypto",
+			"buildCommand" : "/Users/fulongbin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86 --target mbedcrypto",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/aes.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/aesni.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/arc4.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/asn1parse.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/asn1write.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/base64.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/bignum.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/blowfish.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/camellia.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ccm.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/cipher.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/cipher_wrap.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/cmac.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ctr_drbg.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/des.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/dhm.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ecdh.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ecdsa.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ecjpake.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ecp.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ecp_curves.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/entropy.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/entropy_poll.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/error.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/gcm.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/havege.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/hmac_drbg.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/md.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/md2.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/md4.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/md5.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/md_wrap.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/memory_buffer_alloc.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/oid.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/padlock.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pem.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pk.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pk_wrap.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pkcs12.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pkcs5.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pkparse.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pkwrite.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/platform.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ripemd160.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/rsa.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/sha1.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/sha256.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/sha512.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/threading.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/timing.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/version.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/version_features.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/xtea.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86/clogan.out/libmbedcrypto.a",
+			"toolchain" : "7706711918070078005"
+		},
+		"mbedtls-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "mbedtls",
+			"buildCommand" : "/Users/fulongbin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86 --target mbedtls",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/debug.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/net_sockets.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ssl_cache.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ssl_ciphersuites.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ssl_cli.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ssl_cookie.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ssl_srv.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ssl_ticket.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/ssl_tls.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86/clogan.out/libmbedtls.a",
+			"toolchain" : "7706711918070078005"
+		},
+		"mbedx509-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "mbedx509",
+			"buildCommand" : "/Users/fulongbin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86 --target mbedx509",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/certs.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/pkcs11.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/x509.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/x509_create.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/x509_crl.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/x509_crt.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/x509_csr.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/x509write_crt.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/Clogan/../mbedtls/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/ios/Classes/mbedtls/library/x509write_csr.c",
+					"workingDirectory" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/fulongbin/FlutterProjects/flutter_native_logan/android/.cxx/cmake/debug/x86/clogan.out/libmbedx509.a",
+			"toolchain" : "7706711918070078005"
+		}
+	},
+	"toolchains" : 
+	{
+		"7706711918070078005" : 
+		{
+			"cCompilerExecutable" : "/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/fulongbin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
