@@ -8,7 +8,7 @@ typedef logan_init_native_t = Int32 Function(Pointer<Utf8> cacheDirs, Pointer<Ut
 
 typedef logan_open_native_t = Int32 Function(Pointer<Utf8> pathName);
 
-typedef logan_write_native_t = Int32 Function(Int32 flag, Pointer<Utf8> log, int localTime,
+typedef logan_write_native_t = Int32 Function(Int32 flag, Pointer<Utf8> log, Int32 localTime,
     Pointer<Utf8> threadName, Int64 threadId, Int32 isMain);
 
 typedef logan_flush_native_t = Int32 Function();
