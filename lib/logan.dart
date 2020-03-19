@@ -103,14 +103,20 @@ class Logan {
 
     int threadId = 0;
     int isMain = 0;
+    int millisecond = DateTime.now().millisecondsSinceEpoch;
+    var cLog = Utf8.toUtf8(log);
+    var cThreadName = Utf8.toUtf8('main');
     int nativeCode = bindings.write(
         type,
-        Utf8.toUtf8(log),
-        Utf8.toUtf8(DateTime.now().millisecondsSinceEpoch.toString()),
-        Utf8.toUtf8('main'),
+        cLog,
+        millisecond,
+        cThreadName,
         threadId,
         isMain
     );
+
+    free(cLog);
+    free(cThreadName);
 
     if(config.debug){
       print('${DateTime.now().toUtc()} ${NativeCodeMessage[nativeCode]} -> $log');
