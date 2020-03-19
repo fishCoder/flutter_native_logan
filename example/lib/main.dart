@@ -86,7 +86,7 @@ class _MyAppState extends State<MyApp> {
     final today = DateTime.now();
     final date = "${today.year.toString()}-${today.month.toString().padLeft(2, '0')}-${today.day.toString().padLeft(2, '0')}";
     final LoganResult result = await FlutterNativeLogan.upload(
-        'http://192.168.100.111:8080/logan/upload',
+        'http://192.168.100.111:8080/api/logan/native',
         date,
         'FlutterTestAppId',
         'FlutterTestUnionId',

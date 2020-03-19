@@ -68,6 +68,8 @@ class LogIsolateMonitor {
     }
     PackageInfo packageInfo = await PackageInfo.fromPlatform();
     HttpClientRequest request = await HttpClient().postUrl(Uri.parse(serverUrl));
+    File log = File(pathResult.data);
+    int length = await log.length();
     request.headers.add("fileDate", date);
     request.headers.add("appId", appId);
     request.headers.add("unionId", unionId);
@@ -75,7 +77,8 @@ class LogIsolateMonitor {
     request.headers.add("buildVersion", packageInfo.buildNumber);
     request.headers.add("appVersion", packageInfo.version);
     request.headers.add("platform", Platform.isAndroid ? '1' : '2');
-    File log = File(pathResult.data);
+
+    request.headers.add('content-length', length);
     request.add(await log.readAsBytes());
     HttpClientResponse response = await request.close();
     int code = response.statusCode;
