@@ -7,7 +7,7 @@ class _LoganBindings {
   DynamicLibrary loganLib;
   int Function(Pointer<Utf8>, Pointer<Utf8>, int, Pointer<Utf8>, Pointer<Utf8>) init;
   int Function(Pointer<Utf8>) open;
-  int Function(int, Pointer<Utf8>, Pointer<Utf8>, Pointer<Utf8>, int, int) write;
+  int Function(int, Pointer<Utf8>, int, Pointer<Utf8>, int, int) write;
   int Function() flush;
   int Function(int) debug;
   _LoganBindings(){
